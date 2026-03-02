@@ -6,7 +6,9 @@ export default function ShoppingHubPage() {
   return (
     <main className="mx-auto max-w-2xl p-6 text-white">
       <h1 className="text-2xl font-semibold">Shopping</h1>
-      <p className="mt-2 text-sm text-gray-400">Choose what you want to work with.</p>
+      <p className="mt-2 text-sm text-gray-400">
+        Choose what you want to work with.
+      </p>
 
       <div className="mt-6 grid gap-3">
         <Link
@@ -25,7 +27,7 @@ export default function ShoppingHubPage() {
         >
           <div className="text-lg font-semibold">Receipts</div>
           <div className="mt-1 text-sm text-gray-400">
-            Browse receipt history and view receipt details.
+            Browse receipt history and view details.
           </div>
         </Link>
       </div>

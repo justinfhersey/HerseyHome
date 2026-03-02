@@ -96,21 +96,13 @@ export default function AppPage() {
         </div>
       )}
 
-      <div className="mt-8 flex flex-wrap gap-3">
-        <Link
-          href="/app/dashboard"
-          className="rounded-lg bg-black px-4 py-2 text-white"
-        >
-          Dashboard
-        </Link>
-
-        <Link
-          href="/app/shopping"
-          className="rounded-lg bg-black px-4 py-2 text-white"
-        >
-          Shopping
-        </Link>
-
+      <div className="mt-8 flex gap-3">
+  <a
+    href="/app/shopping"
+    className="rounded-lg bg-black px-4 py-2 text-white"
+  >
+    Shopping
+  </a>
         <button
           onClick={signOut}
           className="rounded-lg bg-black px-4 py-2 text-white"
